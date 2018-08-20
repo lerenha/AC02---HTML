@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+	<html>
+		<head>
+			<title> Ex5 - Form </title>
+<style> 
+
+body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: red;}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+</style>
+		</head>
+		<body>
+			<h2>Formulário - Cadastro Editora</h2>
+			<form>
+  	<label for="nome">Nome - Editora</label>:<br>
+	<input type="text" name="nome" id="nome"><br>
+	<label for="endereco">Endereço</label>:<br>
+	<input type="text" name="endereco" id="endereco"><br>
+	<label for="number">CNPJ</label>:<br>
+	<input type="number" name="cnpj" id="cnpj"><br>
+	<label for="url">Site</label>:<br>
+	<input type="url" name="homepage" id="url"><br>
+	<label for="email">Email</label>:<br>
+	<input type="email" name="email" id="email"><br>
+	<label for="number">Telefone</label>:<br>
+	<input type="number" name="number" id="number"><br>
+	<label for="nome">Nome para Contato</label>:<br>
+	<input type="text" name="nome" id="nome"><br>
+
+	<fieldset>
+    <legend>Gênero de Publicações</legend>
+    <form action="" method="post">
+  		<input type="checkbox" name="gen1" value="policial" /> Policial<br>
+  		<input type="checkbox" name="gen2" value="ficcao" /> Ficção<br>
+ 		<input type="checkbox" name="gen3" value="nficcao" /> Não ficção<br>
+ 		<input type="checkbox" name="gen4" value="religioso" /> Religioso<br>
+  		<input type="checkbox" name="gen5" value="esporte" /> Esporte<br>
+ 		<input type="checkbox" name="gen6" value="profissional" /> Profissional<br>
+ 		<input type="checkbox" name="gen7" value="outros" /> Outros<br>
+	</form>
+	</fieldset>
+	<input type="submit" value="Concluir Cadastro">
+
+
+</form>
+		</body>
+	</html>
